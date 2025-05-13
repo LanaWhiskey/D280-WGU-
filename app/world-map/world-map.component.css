@@ -1,0 +1,43 @@
+:host {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: sans-serif;
+  }
+  
+  .map-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  svg {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    background-color: #e0f3ff; 
+  }
+  
+  .country-info {
+    width: 300px;
+    background: white;
+    padding: 1rem;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    overflow-y: auto;
+  }
+  .tooltip {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    pointer-events: none;
+    z-index: 1000;
+    white-space: nowrap;
+  }
+  
+ 
+  

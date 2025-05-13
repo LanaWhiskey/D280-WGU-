@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+path.selected {
+    fill: rgb(30, 255, 0) !important;
+    stroke: black;
+    stroke-width: 1;
+  }
+path.selected:hover {
+    fill: rgb(238, 255, 0) !important;
+    stroke: black;
+    stroke-width: 1;
+  }  
+svg text {
+    font-family: sans-serif;
+    pointer-events: none;
+  }
+  .map-header {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+    background: linear-gradient(to right, #0066cc, #33ccff);
+    color: white;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  .map-header span {
+    text-transform: uppercase;
+  }
+
+  .selected {
+    fill: #00e676 !important; /* green */
+    stroke: #fff;
+    stroke-width: 1.5;
+    filter: drop-shadow(0 0 4px #00e676);
+  }
+  
+  
+    
+
